@@ -1,0 +1,185 @@
+body{
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+}
+
+header{
+  display: flex;
+  background: rgb(220, 251, 255);
+  justify-content:space-between;
+  height: 15px;
+  margin: 0 auto;
+  padding: 5px;
+  position: fixed;
+  width: 99%;
+}
+
+header p{
+  margin: 0px;
+  padding: 0;
+  height: 15px;
+  cursor: pointer;
+}
+
+header a{
+  color: rgb(51, 50, 50);
+  /* text-decoration: none; */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header p:hover{
+  opacity: 0.8;
+}
+
+
+main{
+  width: 520px;
+  margin: 0px auto;
+}
+
+h1{
+  margin:0px auto;
+  text-align: center;
+  padding-top: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#deli{
+  text-align: center;
+  margin: 5px 0 20px;
+}
+
+.word_sec, .defi_sec{
+  display: flex;
+  height: 20px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+#inst{
+  margin: 0;
+  width: 90px;
+  padding: 0;
+
+}
+
+input{
+  box-sizing: border-box;
+  width: 50%;
+}
+input[name="defi"]{
+  width: 70%;
+}
+
+.delete_word,
+.delete_defi{
+  color: #ccc;
+  cursor: pointer;
+  font-size: 25px;
+  margin-left: auto;
+}
+
+#btn{
+  border-radius: 4px;
+  padding: 8px;
+  margin-bottom: 4px;
+  cursor: pointer;
+  background: rgb(29, 33, 238);
+  text-align: center;
+  box-shadow: 0 4px  rgb(25, 28, 201);
+  color: #fefefe;
+  user-select: none;
+  display: block;
+  text-decoration: none;
+}
+
+.AddToSql{
+  display: flex;
+  height: auto;
+}
+
+.pendingList{
+  width: 50%;
+  border: 8px solid sienna;
+  background: rgb(10, 99, 54);
+  margin: 30px auto;
+  padding: 10px;
+}
+
+ul{
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+li{
+  font-size: 18px;
+  font-weight: bold;
+  color: #fefefe;
+  margin-bottom: 15px;
+  padding: 3px;
+}
+
+
+#btn2{
+  margin: auto;
+  cursor: pointer;
+  background: rgb(109, 235, 161);
+  border-radius: 4px;
+  box-shadow: 0 4px  rgb(108, 170, 126);
+  color: #fefefe;
+  user-select: none;
+  padding: 6px;
+  width: 180px;
+  text-align: center;
+}
+
+.btn3{
+  margin: auto;
+  cursor: pointer;
+  background: rgb(237, 240, 81);
+  border-radius: 4px;
+  box-shadow: 0 4px  rgb(110, 121, 12);
+  color: #0a0909;
+  user-select: none;
+  padding: 6px; 
+  width: 180px;
+  text-align: center;
+}
+
+.backWord{
+  margin: auto;
+  cursor: pointer;
+  background: rgb(197, 141, 235);
+  border-radius: 4px;
+  box-shadow: 0 4px  rgb(78, 18, 102);
+  color: #0a0909;
+  user-select: none;
+  padding: 6px; 
+  width: 180px;
+  text-align: center;
+}
+
+#btn4{
+  margin: auto;
+  cursor: pointer;
+  background: rgb(235, 117, 109);
+  border-radius: 4px;
+  box-shadow: 0 4px  rgb(148, 97, 90);
+  color: #fefefe;
+  user-select: none;
+  padding: 6px; 
+  width: 180px;
+  text-align: center;
+}
+
+
+.btnGroup{
+  display: flex;
+  flex-direction: column;
+}
+
+.disable{
+  opacity: 0.2;
+}
+
